@@ -23,6 +23,7 @@ body {
     background-color: #9b1818;
     display: flex;
     justify-content: center;
+    font-family: 'CustomFont', Arial, Helvetica, sans-serif;
   }
   
   .tab-button {
@@ -30,7 +31,6 @@ body {
     color: #ffb4b3;
     font-weight: bold;
     font-size: 15px;
-    font-family: 'CustomFont', Arial, Helvetica, sans-serif;
     border: none;
     outline: none;
     cursor: pointer;
