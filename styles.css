@@ -1,7 +1,7 @@
 /* title */
 @font-face {
     font-family: 'CostumFont';
-    src: url('QuirkyLovePersonalUseRegular-RpwrM.ttf') format('truetype');
+    src: url('OldEnglishGothicPixelRegular-gx1jp.otf') format('OpenType');
 } 
 .myfont {
     font-family: 'CostumFont', Arial, Helvetica, sans-serif;
