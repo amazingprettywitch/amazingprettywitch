@@ -1,3 +1,6 @@
+body {
+    background-color: #ffb4b3;
+    }
 /* title */
 @font-face {
     font-family: 'CostumFont';
@@ -25,10 +28,13 @@
   
   .tab-button {
     background-color: inherit;
-    color:black;
+    color:#ffb4b3;
     font-weight: bold;
+    font-size: 10px;
     font-family: 'CostumFont', Arial, Helvetica, sans-serif;
     float: middle;
+    display: flex;
+    justify-content: center;
     border: none;
     outline: none;
     cursor: pointer;
