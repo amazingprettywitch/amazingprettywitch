@@ -1,3 +1,96 @@
 .centered-text {
     text-align: center;
 }
+
+/* design of tabs */
+.tab-row {
+    overflow: hidden;
+    background-color: #9b1818;
+    display: flex;
+    place-items: centre;
+    
+  }
+  
+  .tab-button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: #af0000;
+  }
+  
+  .tab-button.active {
+    background-color: #de0000;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+  }
+
+/* design of poem drop down thing */
+    .cover {
+        width: 30%;
+        height: auto;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        position: relative;
+        display: block;
+        font-size: 15px;
+        border: 1px solid black;
+        padding: 12px 10px;
+        background-color:#9b1818;
+    }
+    #option1-content {
+     position: absolute;
+     top: 170px;
+     left: 530px;
+     padding: 12px 10px;
+     background-color: #ff99ff;
+    }
+    #close-btn{
+        color: #ffff66;
+        background-color: #ff0000;
+        border: none;
+        font-size: 16px;
+    }
+    #close1-btn{
+        color: #ffff66;
+        background-color: #ff0000;
+        border: none;
+        font-size: 16px;
+    }
+    #option2-content {
+     position: absolute;
+     top: 170px;
+     left: 530px;
+     padding: 12px 10px;
+     background-color: #ff99ff;
+    }
+    #poems {
+        color: #990000;
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+    }
+
+
