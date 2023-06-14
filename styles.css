@@ -27,7 +27,8 @@
     background-color: inherit;
     color:black;
     font-weight: bold;
-    float: left;
+    font-family: 'CostumFont, Arial, Helvetica, sans-serif';
+    float: middle;
     border: none;
     outline: none;
     cursor: pointer;
