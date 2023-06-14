@@ -1,11 +1,7 @@
 /* title */
 @font-face {
     font-family: 'CostumFont';
-    src: url('Quir2kyBackPersonalUseRegular-lgqAX.ttf') format('truetype'),
-         url('QuirkyCleanPersonalUseRegular-nRaVM.ttf') format('truetype'),
-         url('QuirkyLoveBackOnePersonalUseRegular-BW3DV.ttf') format('truetype'),
-         url('QuirkyLoveHeartsPersonalUseRegular-1GzdL.ttf') format('truetype'),
-         url('QuirkyLovePersonalUseRegular-RpwrM.ttf') format('truetype');
+    src: url('QuirkyLovePersonalUseRegular-RpwrM.ttf') format('truetype');
 } 
 .myfont {
     font-family: 'CostumFont', Arial, Helvetica, sans-serif;
