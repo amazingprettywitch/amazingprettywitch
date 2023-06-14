@@ -1,3 +1,17 @@
+/* title */
+@font-face {
+    font-family: 'costum font';
+    src: url('QuirkyBackPersonalUseRegular-lgqAX.ttf') format('ttf'),
+         url('QuirkyCleanPersonalUseRegular-nRaVM.ttf') format('ttf'),
+         url('QuirkyLoveBackOnePersonalUseRegular-BW3DV.ttf') format('ttf'),
+         url('QuirkyLoveHeartsPersonalUseRegular-1GzdL.ttf') format('ttf'),
+         url('QuirkyLovePersonalUseRegular-RpwrM.ttf') format('ttf'),;
+} 
+.myfont {
+    font-family: 'costum font', Arial, Helvetica, sans-serif;
+}
+
+
 .centered-text {
     text-align: center;
 }
