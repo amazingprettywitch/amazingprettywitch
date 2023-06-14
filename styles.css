@@ -34,6 +34,17 @@
     padding: 20px;
   }
 
+/* stay to the left for photos, text, etc*/
+  .float-left {
+    float: left;
+  }
+  /* move to left and down a row */
+  .clear-float {
+    float: left;
+    clear: left;
+  }
+
+
 /* design of poem drop down thing */
     .cover {
         width: 30%;
