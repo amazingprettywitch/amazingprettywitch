@@ -22,24 +22,22 @@ body {
     overflow: hidden;
     background-color: #9b1818;
     display: flex;
-    place-items: middle;
-    
+    justify-content: center;
   }
   
   .tab-button {
     background-color: inherit;
-    color:#ffb4b3;
+    color: #ffb4b3;
     font-weight: bold;
     font-size: 15px;
-    font-family: 'CostumFont', Arial, Helvetica, sans-serif;
-    float: middle;
-    display: flex;
-    justify-content: center;
+    font-family: 'CustomFont', Arial, Helvetica, sans-serif;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: background-color 0.3s;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .tab-button:hover {
