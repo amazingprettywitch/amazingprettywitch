@@ -14,7 +14,10 @@ body {
 .myfontregular{
   font-family: 'CostumFont', Arial, Helvetica, sans-serif;
 }
-
+.link{
+  text-decoration: underline;
+  color:#9b1818
+}
 .subtitle {
   font-family: 'CostumFont', Arial, Helvetica, sans-serif;
   text-align: center;
