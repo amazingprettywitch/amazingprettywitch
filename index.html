@@ -16,14 +16,12 @@
 <!-- making a row with tabs-->
 <div class="tab-row">
 <!-- tab names -->
-    <button class="tab-button active" onclick="openTab(event, 'tab1')">
+    <button class="tab-button active myfontregular" onclick="openTab(event, 'tab1')">
         home</button>
-    <button class="tab-button" onclick="openTab(event, 'tab2')">
+    <button class="tab-button myfontregular" onclick="openTab(event, 'tab2')">
     knit stuff        </button>
-    <button class="tab-button" onclick="openTab(event, 'tab3')"> poems       </button>
+    <button class="tab-button myfontregular" onclick="openTab(event, 'tab3')"> poems       </button>
 </div>
-
-<!-- tab contents-->
 
 <div id="tab1" class="tab-content">
  <h3>weolcome to my website</h3>
@@ -56,21 +54,19 @@
 </div>
 
 <div id="tab3" class="tab-content" style="display: none;">
+<!-- poems and there contents -->
   <body>
-    <div class="dropdown">
-      <button id="poems">Poems</button>
-      <div class="dropdown-content">
-        <p1>Isn't Every Love Poem An Unfinished Love Poem</p1>        
-  <br>
-  <br>
-        <p2>Mystery poem</p2> <br>
-      </figure>
-      </div>
-  </div>
-  <div id="option1-content" style="display: none;">
-    <button id="close-btn">X</button>
-    <h5>Isn't Every Love Poem An Unfinished Love Poem</h3>
-    <p>Praise the ear. <br>
+  <div class=" poem-grid">
+  <div class="poem-selection">
+
+  <button class="poem-title" onclick="openPoem(event, 'unfinishedLovePoem')">Isn't every love poem an unfinished love poem</button>
+  
+  <button class="poem-title" onclick="openPoem(event, 'mysterypoem')">Mystery poem</button>
+  
+</div>
+
+<div id="unfinishedLovePoem" class="poem-content float-right" style="display: none">
+  <p>Praise the ear. <br>
     Praise the hair curling <br>
     around the ear.<br>
     <br>
@@ -91,35 +87,36 @@
     By Cristin O'keefe Aptowicz <br>
     </p>
   </div>
-  <div id="option2-content" style="display: none;">
-      <button id="close1-btn">X</button>
-      <h5>untitled</h5>
-      <p>he has a way of honouring my body<br>
-      honestly and gently<br>
-      i'm embraced by a genuine and intimate appreciation<br>
-      for my essence and compassion<br>
-      kissing him is like meditation<br>
-      i can feel my presence<br>
-      <br>
-      i like to kiss him slow<br>
-      so we can feel the way our lips move together<br>
-      i like to pause and pull away<br>
-      to feel the magnet that quickly pulls my lips back to his<br>
-      i like to watch his expressions as i explore his body<br>
-      to make me want him more<br>
-      i feel the magic in our slightest touch<br>
-      the force of intention between our skin<br>
-      stronger than simple contact<br>
-      i crave the anticipation<br>
-      and bathe in our satisfaction<br>
-      <br>
-      when our bodies share space<br>
-      we can make anything happen<br>
-      when we make a wish we know it will come true<br>
-      </p>
-  </div>
   
-  </body>
+  <div id="mysterypoem" class="poem-content float-right" style="display: none">
+    <h5>untitled</h5>
+    <p>he has a way of honouring my body<br>
+    honestly and gently<br>
+    embraced by an intimate appreciation<br>
+    kissing him is like meditation<br>
+    i can feel my presence<br>
+    <br>
+    i kiss him slow<br>
+    to feel the way our lips move together<br>
+    i pause and pull away<br>
+    to feel the magnet that quickly pulls my lips back to his<br>
+    i watch his expressions as i explore his body<br>
+    to make me want him more<br>
+    i feel the magic in our slightest touch<br>
+    the force of intention between our skin<br>
+    stronger than simple contact<br>
+    i crave the anticipation<br>
+    and bathe in our satisfaction<br>
+    <br>
+    when our bodies share space<br>
+    we can make anything happen<br>
+    when we make a wish we know it will come true<br>
+    </p>
+  </div>
+</div>
+
+</body>
+
 </div>
     
  <!-- image -->

@@ -24,30 +24,24 @@
 document.getElementById("tab1").style.display = "block";
 
 
+/* function of poems */
+function openPoem(event, poemId) {
+  var poemContent = document.getElementById(poemId);
+  var allPoemContents = document.getElementsByClassName('poem-content');
+
+  // Hide all other poem contents
+  for (var i = 0; i < allPoemContents.length; i++) {
+    var currentPoemContent = allPoemContents[i];
+    if (currentPoemContent.id !== poemId && currentPoemContent.style.display === "inline") {
+      currentPoemContent.style.display = "none";
+    }
+  }
 
 
-  var option1 = document.querySelector("p1");
-  var option1Content = document.getElementById("option1-content");
-  var closeBtn = document.getElementById("close-btn");
-
-  option1.addEventListener("click", function() {
-    option1Content.style.display = "block";
-  });
-
-  closeBtn.addEventListener("click", function() {
-    option1Content.style.display = "none";
-  });
-  
-
-
-  var option2 = document.querySelector("p2");
-  var option2Content = document.getElementById("option2-content");
-  var close1Btn = document.getElementById("close1-btn");
-
-  option2.addEventListener("click", function() {
-    option2Content.style.display = "block";
-  });
-
-  close1Btn.addEventListener("click", function() {
-    option2Content.style.display = "none";
-  });
+  // Toggle the display of the selected poem content
+  if (poemContent.style.display === "none") {
+    poemContent.style.display = "inline";
+  } else {
+    poemContent.style.display = "none";
+  }
+}

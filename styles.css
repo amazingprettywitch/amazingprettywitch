@@ -11,6 +11,9 @@ body {
     font-size: 25px;
     text-shadow: 2px 2px 4px #9b1818;
 }
+.myfontregular{
+  font-family: 'CostumFont', Arial, Helvetica, sans-serif;
+}
 
 
 .centered-text {
@@ -23,7 +26,6 @@ body {
     background-color: #9b1818;
     display: flex;
     justify-content: center;
-    font-family: 'CustomFont', Arial, Helvetica, sans-serif;
   }
   
   .tab-button {
@@ -62,65 +64,34 @@ body {
     float: left;
     clear: left;
   }
+  .float-right{
+    float: right
+  }
 
 
-/* design of poem drop down thing */
-    .cover {
-        width: 30%;
-        height: auto;
-    }
-    
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        
-    }
+  /* text for poem selector */
 
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        z-index: 1;
-    }
+.poem-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 
-    .dropdown:hover .dropdown-content {
-        position: relative;
-        display: block;
-        font-size: 15px;
-        border: 1px solid black;
-        padding: 12px 10px;
-        background-color:#9b1818;
-    }
-    #option1-content {
-     position: absolute;
-     top: 170px;
-     left: 530px;
-     padding: 12px 10px;
-     background-color: #ff99ff;
-    }
-    #close-btn{
-        color: #ffff66;
-        background-color: #ff0000;
-        border: none;
-        font-size: 16px;
-    }
-    #close1-btn{
-        color: #ffff66;
-        background-color: #ff0000;
-        border: none;
-        font-size: 16px;
-    }
-    #option2-content {
-     position: absolute;
-     top: 170px;
-     left: 530px;
-     padding: 12px 10px;
-     background-color: #ff99ff;
-    }
-    #poems {
-        color: #990000;
-        background-color: transparent;
-        border: none;
-        font-size: 16px;
-    }
+}
 
+
+
+.poem-title {
+  grid-column: 1;
+  display:list-item;
+  margin-bottom: 3px;
+  background-color: transparent;
+  color:#af0000;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+}
+
+.poem-content {
+  grid-column: 2;
+}
 
