@@ -93,5 +93,8 @@ body {
 
 .poem-content {
   grid-column: 2;
+  background-color: #9b1818;
+  text-align: center;
+  color:#ffb4b3;
 }
 
