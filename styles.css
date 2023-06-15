@@ -75,8 +75,16 @@ body {
     float: right
   }
 
+/* flashes format*/
+.flash img{
+  width: auto;
+  height: 400px;
+  display: inline-block;
+  margin: none;
+}
 
-  /* text for poem selector */
+
+/* text for poem selector */
 
 .poem-grid {
   display: grid;
